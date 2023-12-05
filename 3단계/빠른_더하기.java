@@ -16,10 +16,10 @@ public class Main {
             for (int j = 0; j < ct.length; j++) {
                 c[j] = Integer.parseInt(ct[j]);
             }
-            c[i]=c[0]-c[1];
+            c[i]=c[0]+c[1];
         }
         for(int i=0;i<inputs;i++){
-         System.out.println(String.format("Case # %d:",i,c[i]));
+         System.out.println(c[i]);
         }
 
 
